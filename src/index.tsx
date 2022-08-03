@@ -1,1 +1,1 @@
-// Hello world
+export { useCopyToClipboard } from './useCopyToClipboard'
