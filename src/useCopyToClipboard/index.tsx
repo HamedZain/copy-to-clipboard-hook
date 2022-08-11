@@ -8,7 +8,7 @@ type UseCopyToClipboardReturns = {
 }
 
 interface UseCopyToClipboard {
-    (options: UseCopyToClipboardOptions): UseCopyToClipboardReturns
+    (options?: UseCopyToClipboardOptions): UseCopyToClipboardReturns
 }
 
 export const useCopyToClipboard: UseCopyToClipboard = (options = {}) => {
