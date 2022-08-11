@@ -5,6 +5,7 @@ type UseCopyToClipboardOptions = { }
 
 type UseCopyToClipboardReturns = {
     copy: (text: string) => void
+    isCopied: boolean
 }
 
 interface UseCopyToClipboard {
